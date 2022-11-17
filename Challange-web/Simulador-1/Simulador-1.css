@@ -26,11 +26,17 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 #icon {
   color: #6f6e6e;
-  margin-right: 900px;
+  margin: auto;
+  left: 50px;
+  top: 0;
+  height: fit-content;
+  bottom: 0;
+  position: absolute;
 }
 
 h1 {

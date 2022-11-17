@@ -19,17 +19,24 @@ body {
 }
 
 nav {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   width: 1160px;
   height: 87px;
   background-color: #ffff52;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 #icon {
   color: #6f6e6e;
+  margin: auto;
+  left: 50px;
+  top: 0;
+  height: fit-content;
+  bottom: 0;
+  position: absolute;
 }
 
 h1 {
