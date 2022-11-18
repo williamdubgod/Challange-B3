@@ -1,49 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Inter&display=swap");
-
-html {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-body {
-  background-color: #8e8e8e;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-}
-
-nav {
-  margin-bottom: 25px;
-  width: 1160px;
-  height: 87px;
-  background-color: #ffff52;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-#icon {
-  color: #6f6e6e;
-  margin: auto;
-  left: 50px;
-  top: 0;
-  height: fit-content;
-  bottom: 0;
-  position: absolute;
-}
-
-h1 {
-  font-size: 24px;
-  line-height: 29px;
-}
-
 #datas {
   display: flex;
   margin-bottom: 10px;
@@ -78,6 +32,12 @@ h1 {
   height: 30px;
   background-color: #b76e6e;
   margin-right: 500px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.vermelho:hover {
+  background-color: #da1f1f;
 }
 
 .cinza {
@@ -86,8 +46,21 @@ h1 {
   background-color: #534848;
 }
 
-footer {
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
   width: 644px;
   height: 60px;
   background-color: #ffff52;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+a:hover {
+  background-color: orangered;
+  font-size: 20px;
 }
